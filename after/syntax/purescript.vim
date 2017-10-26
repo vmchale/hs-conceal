@@ -7,8 +7,6 @@ syntax keyword element elem conceal cchar=∈
 syntax keyword notContainedIn notElem conceal cchar=∉
 syntax keyword mempty mempty conceal cchar=∅
 syntax keyword mappend mappend conceal cchar=⊕
-syntax match leq '<=' conceal cchar=≤
-syntax match geq '>=' conceal cchar=≥
 
 hi! link Conceal Float
 
