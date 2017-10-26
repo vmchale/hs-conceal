@@ -1,6 +1,6 @@
 # hs-conceal
 
-Plugin to automatically conceal `forall` and the like. For example:
+Plugin to automatically conceal `forall` and the like. For example,
 
 ```haskell
 scope == mempty

@@ -14,6 +14,6 @@ syntax match leq '<=' conceal cchar=≤
 syntax match geq '>=' conceal cchar=≥
 syntax keyword notContainedIn notElem conceal cchar=∉
 
-hi! link Conceal Identifier
+hi! link Conceal Operator
 
 setlocal conceallevel=1
