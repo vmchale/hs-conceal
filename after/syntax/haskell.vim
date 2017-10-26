@@ -9,8 +9,8 @@ syntax match nonEqualityTest '/=' conceal cchar=≠
 syntax keyword element elem conceal cchar=∈
 syntax keyword logicalBottom undefined conceal cchar=⊥
 syntax keyword integers Integer conceal cchar=ℤ
-syntax match compose '.' conceal cchar=∘
-syntax match multiply '*' conceal cchar=⋅
+" syntax match compose '.' conceal cchar=∘
+" syntax match multiply '*' conceal cchar=⋅
 syntax keyword mempty mempty conceal cchar=∅
 syntax keyword mappend mappend conceal cchar=⊕
 syntax match leq '<=' conceal cchar=≤
