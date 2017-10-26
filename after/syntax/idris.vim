@@ -10,7 +10,7 @@ syntax keyword element isElem conceal cchar=∈
 syntax keyword setIntersect intersect conceal cchar=∩
 syntax keyword setUnion union conceal ∪
 syntax keyword mempty neutral conceal cchar=∅
-syntax match mappend ' <\+> ' conceal cchar=⊕
+syntax match mappend ' \<+\> ' conceal cchar=⊕
 syntax match leq ' <= ' conceal cchar=≤
 syntax match geq ' >= ' conceal cchar=≥
 
