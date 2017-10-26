@@ -13,3 +13,5 @@ scope ≡ ∅
 ```
 
 when you're not editing that line.
+
+Works for Haskell, Idris, and PureScript.
