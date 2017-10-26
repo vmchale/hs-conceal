@@ -1,5 +1,7 @@
 scriptencoding utf-8
 
+syntax match typeSignature '->' conceal cchar=→
+" syntax match typeContext '=>' conceal cchar=⇒
 syntax keyword universalQuantifier forall conceal cchar=∀
 syntax match logicalAnd '&&' conceal cchar=∧
 syntax match logicalOr '||' conceal cchar=∨
