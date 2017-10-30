@@ -19,7 +19,7 @@ syntax match mappend '<>' conceal cchar=⊕
 syntax keyword notContainedIn notElem conceal cchar=∉
 syntax keyword setIntersect intersect conceal cchar=∩
 syntax keyword setUnion union conceal ∪
-syntax match setDifference '\\' conceal cchar=∖
+syntax match setDifference '\\\\' conceal cchar=∖
 syntax keyword setDifference difference conceal cchar=∖
 
 hi! link Conceal Float
