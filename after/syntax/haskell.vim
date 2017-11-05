@@ -5,7 +5,7 @@ scriptencoding utf-8
 " syntax match typeContext '=>' conceal cchar=⇒
 syntax keyword universalQuantifier forall conceal cchar=∀
 " syntax match logicalAnd '&&' conceal cchar=∧
-syntax match logicalOr '||' conceal cchar=∨
+" syntax match logicalOr '||' conceal cchar=∨
 syntax keyword logicalNot not conceal cchar=¬
 syntax match equalityTest '==' conceal cchar=≡
 syntax match nonEqualityTest '/=' conceal cchar=≠
