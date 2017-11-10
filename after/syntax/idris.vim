@@ -2,7 +2,7 @@ scriptencoding utf-8
 
 syntax match logicalAnd ' && ' conceal cchar=∧
 syntax keyword logicalNot not conceal cchar=¬
-syntax match setDifference '\\' conceal cchar=∖
+" syntax match setDifference '\\' conceal cchar=∖
 syntax match equalityTest '==' conceal cchar=≡
 syntax match nonEqualityTest '/=' conceal cchar=≠
 syntax keyword element isElem conceal cchar=∈
