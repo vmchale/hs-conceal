@@ -1,6 +1,6 @@
 scriptencoding utf-8
 
-syntax match logicalAnd ' && ' conceal cchar=∧
+syntax match logicalAnd '&&' conceal cchar=∧
 syntax keyword logicalNot not conceal cchar=¬
 " syntax match setDifference '\\' conceal cchar=∖
 syntax match equalityTest '==' conceal cchar=≡
