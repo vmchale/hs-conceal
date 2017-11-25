@@ -1,5 +1,6 @@
 scriptencoding utf-8
 
+syntax match mappend '<>' conceal cchar=⊕
 syntax keyword universalQuantifier forall conceal cchar=∀
 syntax match logicalAnd '&&' conceal cchar=∧
 syntax match logicalOr '||' conceal cchar=∨
