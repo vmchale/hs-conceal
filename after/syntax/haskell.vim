@@ -18,7 +18,7 @@ syntax match mappend '<>' conceal cchar=⊕
 " syntax match geq '>=' conceal cchar=≥
 syntax keyword notContainedIn notElem conceal cchar=∉
 syntax keyword setIntersect intersect conceal cchar=∩
-syntax keyword setUnion union conceal ∪
+" syntax keyword setUnion union conceal ∪
 syntax match setDifference '\\\\' conceal cchar=∖
 syntax keyword setDifference difference conceal cchar=∖
 
