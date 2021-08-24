@@ -15,6 +15,7 @@ syntax keyword logicalBottom undefined conceal cchar=⊥
 syntax keyword mempty mempty conceal cchar=∅
 syntax keyword mappend mappend conceal cchar=⊕
 syntax match mappend '<>' conceal cchar=⊕
+syntax match lollipop '%1 ->' conceal cchar=⊸
 " syntax match leq '<=' conceal cchar=≤
 " syntax match geq '>=' conceal cchar=≥
 syntax keyword notContainedIn notElem conceal cchar=∉
